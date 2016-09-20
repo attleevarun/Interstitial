@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Interstitial</title>
+    <link href="interstitial.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="interstitial.js"></script>
+    <script src="jquery.bpopup.js"></script>
+</head>
+
+<body>
+    <p>This website considers duckduckgo.com to be non trusted link and will pop a message if you want to leave this page on clicking this link.</p><br><br>
+    <a href="https://www.duckduckgo.com" id="weblink" target="_blank">Non Trusted</a>
+
+    <div class="interstitial">
+        <div id="msgcontainer">
+
+            <h1 class="noticetitle">Important Notice</h1>
+            <h3 id="leavingpage">You're leaving this page</h3>
+            <img class="b-close" src="remove-symbol.png" />
+            <p class="noticecontent" id="notice_nontrusted">Selecting <strong>Continue</strong> will take you to a website that "this website" does not own or control.
+                <br> We are not responsible for the products, services, or information you may find or
+                <br> provide there. Also, you should read and understand how that site’s privacy policy,
+                <br> level of security and terms and conditions may impact you.</p>
+
+            <input type="button" class="continue" autofocus value="Continue" autofocus />&nbsp;&nbsp;
+            <input type="button" class="cancel" autofocus value="Cancel" />
+        </div>
+
+    </div>
+
+</body>
+
+</html>

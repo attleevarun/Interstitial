@@ -1,0 +1,74 @@
+.interstitial {
+    background-color: #fff;
+    border-radius: 0px;
+    color: #000;
+    display: none;
+    padding: 20px;
+    width: 650px;
+    max-height: 300px;
+}
+
+#msgcontainer {
+    margin: 0 20px 20px 20px;
+}
+
+.interstitial .b-close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background-color: white;
+    width: 13px;
+    height: auto;
+    margin: 15px;
+}
+
+.interstitial {
+    font-family: "Helevetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.interstitial h1 {
+    color: #650360;
+}
+
+#leavingpage {
+    color: #696969;
+}
+
+.noticecontent {
+    font-size: 16px;
+    line-height: 150%;
+    color: #808080;
+}
+
+.interstitial input {
+    background: #006899;
+    color: #FFF;
+    border: solid 1px #20538D;
+    font-size: 16px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.interstitial input:hover {
+    background: #006899;
+    opacity: 1;
+    text-decoration: none;
+    border: solid 1px #2A4E77;
+}
+
+.interstitial input:focus {
+    background: #006899;
+    opacity: 1;
+    border: solid 1px #203E5F;
+}
+
+.interstitial .continue {
+    width: 100px;
+    height: 35px;
+}
+
+.interstitial .cancel {
+    width: 80px;
+    height: 35px;
+}

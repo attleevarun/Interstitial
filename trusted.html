@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Interstitial</title>
+    <link href="interstitial.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="interstitial.js"></script>
+    <script src="jquery.bpopup.js"></script>
+
+</head>
+
+<body>
+    <p>Google is a trusted link, it will pop up a message that it is still a third party website and may have different policies</p><br><br>
+    <a href="https://www.google.com">Trusted</a>
+
+    <div class="interstitial">
+        <div id="msgcontainer">
+
+            <h1 class="noticetitle">Important Notice</h1>
+            <img class="b-close" src="remove-symbol.png" />
+
+            <p class="noticecontent" id="notice_trusted">By choosing to <strong>Continue</strong>, you will be taken to domain name, a site operated by a third party. Because you’re leaving "this website", we’d like you to know that this third party may have its own privacy policy and level of security. We encourage you to review any policy and any terms and conditions posted on that site.</p>
+
+            <input type="button" class="continue" autofocus value="Continue" autofocus />&nbsp;&nbsp;
+            <input type="button" class="cancel" autofocus value="Cancel" />
+        </div>
+    </div>
+</body>
+
+</html>
